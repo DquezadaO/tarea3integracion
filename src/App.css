@@ -1,3 +1,39 @@
-#main-map {
-	height: 80vw
+.map {
+	margin: auto;
+	width: 80vw;
+	height: 30vw;
+}
+
+.airplane-icon {
+  background-image: url('assets/plane.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.info {
+	display: flex;
+	margin: auto;
+	margin-top: 3vw;
+	height: 20vw;
+	width: 80vw;
+}
+
+.flight {
+	margin-left: 1vw;
+	height: 20vw;
+	width: 15vw;
+	overflow-y: scroll;
+}
+
+.chat {
+	margin: auto;
+	margin-top: 3vw;
+	width: 80vw;
+	height: 15vw;
+}
+
+.messages {
+	height: 10vw;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
